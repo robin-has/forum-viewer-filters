@@ -1,0 +1,15 @@
+! 카페 홈
+##div[aria-label="광고"]
+
+! 카페 목록
+##.NoticeArea
+##.adtype_infinity
+
+##.ArticleSectionLoggerBannerTypeAdvert
+##.ArticleSectionLoggerCafeAppBanner
+##.postend-feed-ad
+##.js-related-feed
+###articleFeedList > div:nth-child(3)
+
+! 공통
+##footer
