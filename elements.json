@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "cafe-home-tab-neighbor",
+      "label": "카페 홈 탭 - 이웃",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(2)"
+      ],
+      "defaultHidden": true
+    }
+  ]
+}
