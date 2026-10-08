@@ -1,5 +1,7 @@
 ! 카페 홈
 ##div[aria-label="광고"]
+##a[aria-label="N플리마켓"]
+##a[aria-label="카페 만들기"]
 
 ! 카페 목록
 ##.adtype_infinity
