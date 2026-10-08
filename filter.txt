@@ -2,7 +2,7 @@
 ##div[aria-label="광고"]
 ##a[aria-label="N플리마켓"]
 ##a[aria-label="카페 만들기"]
-##div[class*="_cafeAppBanner_"]
+##div[class=*"_cafeAppBanner_"]
 
 ! 카페 목록
 ##.adtype_infinity
