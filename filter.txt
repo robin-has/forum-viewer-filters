@@ -2,7 +2,6 @@
 ##div[aria-label="광고"]
 
 ! 카페 목록
-##.NoticeArea
 ##.adtype_infinity
 
 ##.ArticleSectionLoggerBannerTypeAdvert
