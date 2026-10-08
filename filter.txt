@@ -5,7 +5,7 @@
 ##a[data-nlog-area="gnb.goto_nflea"]
 ##a[data-nlog-area="gnb.create_cafe"]
 ##a[class="HeaderIcon appbar__local_write"]
-
+##a[data-nlog-area="header.region_content_write"]
 ##div[class*="_cafeAppBanner_"]
 
 ! 카페 목록
