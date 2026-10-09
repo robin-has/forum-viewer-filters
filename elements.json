@@ -2,6 +2,21 @@
   "version": 1,
   "items": [
     {
+      "id": "cafe-article-list-mobile-banner",
+      "label": "카페 글 목록 모바일 배너",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        "div[id=\"cafe_main_profit_share\"]",
+        "div[class*=\"adtype_smart\"]",
+        "div[data-section-home-top-advert=\"true\"]",
+        "div[data-nlog-area=\"ad.mw_cafe_article_list_rs.item\"]",
+        "div[data-nlog-params*=\"ad_provider_group_cd\"]"
+      ],
+      "defaultHidden": true
+    },
+    {
       "id": "cafe-home-mobile-banner",
       "label": "카페 홈 모바일 배너",
       "hosts": [
