@@ -18,4 +18,5 @@
 ###articleFeedList > div:nth-child(3)
 
 ! 공통
+##.tip_alarm
 ##footer
