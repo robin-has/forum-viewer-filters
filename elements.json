@@ -14,9 +14,26 @@
   ],
   "items": [
     {
-      "id": "cafe-article-list-mobile-banner",
+      "id": "cafe-home-mobile-banner",
       "categoryId": "ad",
       "order": 10,
+      "label": "카페 홈 모바일 배너",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        "div[id=\"section_home_smart_channel\"]",
+        "div[class*=\"_advertSlot_\"]",
+        "div[data-section-home-top-advert=\"true\"]",
+        "div[data-nlog-area=\"ad.mw_cafe_top_home.item\"]",
+        "div[data-nlog-params*=\"ad_provider_group_cd\"]"
+      ],
+      "defaultHidden": true
+    },
+    {
+      "id": "cafe-article-list-mobile-banner",
+      "categoryId": "ad",
+      "order": 20,
       "label": "카페 글 목록 모바일 배너",
       "hosts": [
         "m.cafe.naver.com"
@@ -31,19 +48,16 @@
       "defaultHidden": true
     },
     {
-      "id": "cafe-home-mobile-banner",
+      "id": "cafe-carticle-list-ad",
       "categoryId": "ad",
-      "order": 20,
-      "label": "카페 홈 모바일 배너",
+      "order": 30,
+      "label": "카페 글 목록 내 광고",
       "hosts": [
         "m.cafe.naver.com"
       ],
       "selectors": [
-        "div[id=\"section_home_smart_channel\"]",
-        "div[class*=\"_advertSlot_\"]",
-        "div[data-section-home-top-advert=\"true\"]",
-        "div[data-nlog-area=\"ad.mw_cafe_top_home.item\"]",
-        "div[data-nlog-params*=\"ad_provider_group_cd\"]"
+        "div[id*=\"sc_articles_ad_wrap_popular_\"]",
+        "div[data-ad-id]"
       ],
       "defaultHidden": true
     },
