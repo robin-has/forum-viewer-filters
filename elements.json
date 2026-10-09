@@ -41,6 +41,17 @@
         "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(2)"
       ],
       "defaultHidden": true
+    },
+    {
+      "id": "cafe-sticky-notice",
+      "label": "카페 고정 공지",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        ".NoticeArea"
+      ],
+      "defaultHidden": true
     }
   ]
 }
