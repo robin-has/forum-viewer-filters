@@ -2,17 +2,43 @@
   "version": 2,
   "categories": [
     {
-      "id": "ad",
-      "label": "광고 숨기기",
+      "id": "general",
+      "label": "간편하게 보기",
       "order": 10
     },
     {
-      "id": "general",
-      "label": "간편하게 보기",
+      "id": "ad",
+      "label": "광고 숨기기",
       "order": 20
     }
   ],
   "items": [
+    {
+      "id": "cafe-home-tab-neighbor",
+      "categoryId": "general",
+      "order": 30,
+      "label": "카페 홈 탭 - 이웃",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(2)"
+      ],
+      "defaultHidden": true
+    },
+    {
+      "id": "cafe-sticky-notice",
+      "categoryId": "general",
+      "order": 40,
+      "label": "카페 고정 공지",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        ".NoticeArea"
+      ],
+      "defaultHidden": true
+    },
     {
       "id": "cafe-home-mobile-banner",
       "categoryId": "ad",
@@ -58,32 +84,6 @@
       "selectors": [
         "div[id*=\"sc_articles_ad_wrap_popular_\"]",
         "div[data-ad-id]"
-      ],
-      "defaultHidden": true
-    },
-    {
-      "id": "cafe-home-tab-neighbor",
-      "categoryId": "general",
-      "order": 30,
-      "label": "카페 홈 탭 - 이웃",
-      "hosts": [
-        "m.cafe.naver.com"
-      ],
-      "selectors": [
-        "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(2)"
-      ],
-      "defaultHidden": true
-    },
-    {
-      "id": "cafe-sticky-notice",
-      "categoryId": "general",
-      "order": 40,
-      "label": "카페 고정 공지",
-      "hosts": [
-        "m.cafe.naver.com"
-      ],
-      "selectors": [
-        ".NoticeArea"
       ],
       "defaultHidden": true
     }
