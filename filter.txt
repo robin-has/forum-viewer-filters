@@ -1,7 +1,7 @@
 ! 카페 홈
 ##div[aria-label="광고"]
 ##a[aria-label="N플리마켓"]
-
+##a[aria-label="카페 만들기"]
 ##a[data-nlog-area="gnb.goto_nflea"]
 ##a[data-nlog-area="gnb.create_cafe"]
 ##a[class="HeaderIcon appbar__local_write"]
