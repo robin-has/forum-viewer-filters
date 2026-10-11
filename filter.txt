@@ -1,1 +1,2 @@
 ##a[aria-label="N플리마켓"]
+##a[data-nlog-area="gnb.goto_nflea"]
