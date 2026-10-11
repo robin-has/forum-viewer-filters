@@ -40,6 +40,20 @@
       "defaultHidden": true
     },
     {
+      "id": "cafe-home-flea",
+      "categoryId": "general",
+      "order": 50,
+      "label": "카페 홈 플리마켓",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        "a[aria-label=\"N플리마켓\"]",
+        "a[data-nlog-area=\"gnb.goto_nflea\"]"
+      ],
+      "defaultHidden": true
+    },
+    {
       "id": "cafe-home-mobile-banner",
       "categoryId": "ad",
       "order": 10,
