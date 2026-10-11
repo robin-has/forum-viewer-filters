@@ -1,6 +1,5 @@
 ! 카페 홈
 ##div[aria-label="광고"]
-##a[aria-label="N플리마켓"]
 
 ##a[class="HeaderIcon appbar__local_write"]
 ##a[data-nlog-area="header.region_content_write"]
