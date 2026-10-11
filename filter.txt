@@ -1,0 +1,2 @@
+##a[aria-label="카페 만들기"]
+##a[data-nlog-area="gnb.create_cafe"]
