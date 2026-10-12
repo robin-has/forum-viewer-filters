@@ -4,7 +4,7 @@
     {
       "id": "cafe-home-auto-expand",
       "label": "[Cafe Home] Auto-expand",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cafe-home-tab-mynews-auto-expand",
