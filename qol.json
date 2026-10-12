@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "cafe-home-auto-expand",
+      "label": "[Cafe Home] Auto-expand",
+      "enabled": false
+    },
+    {
+      "id": "cafe-home-tab-mynews-auto-expand",
+      "label": "[Cafe Home] Auto-expand",
+      "enabled": true
+    },
+    {
+      "id": "cafe-home-tab-hot-auto-select",
+      "label": "[Cafe Home] Auto-select My Cafe in Hot Tab",
+      "enabled": true
+    },
+    {
+      "id": "cafe-list-swipe-to-hide",
+      "label": "[Cafe List] Swipe-to-Hide Post",
+      "enabled": true
+    },
+    {
+      "id": "cafe-list-show-nickname-block",
+      "label": "[Cafe List] Show Nickname Block Button",
+      "enabled": true
+    }
+  ]
+}
