@@ -1,29 +1,96 @@
 {
-  "version": 1,
+  "version": 4,
+  "categories": [
+    {
+      "id": "cafe-home",
+      "label_en": "Cafe Home",
+      "label_ko": "",
+      "order": 10
+    },
+    {
+      "id": "cafe-list",
+      "label_en": "Cafe List",
+      "label_ko": "",
+      "order": 20
+    },
+    {
+      "id": "app",
+      "label_en": "App",
+      "label_ko": "",
+      "order": 30
+    }
+  ],
   "items": [
     {
       "id": "cafe-home-auto-expand",
-      "label": "[Cafe Home] Auto-expand",
+      "categoryId": "cafe-home",
+      "order": 10,
+      "label_en": "[Cafe Home] Auto-expand",
+      "label_ko": "",
       "enabled": true
     },
     {
       "id": "cafe-home-tab-mynews-auto-expand",
-      "label": "[Cafe Home] Auto-expand",
+      "categoryId": "cafe-home",
+      "order": 20,
+      "label_en": "[Cafe Home] Auto-expand",
+      "label_ko": "",
       "enabled": true
     },
     {
       "id": "cafe-home-tab-hot-auto-select",
-      "label": "[Cafe Home] Auto-select My Cafe in Hot Tab",
+      "categoryId": "cafe-home",
+      "order": 30,
+      "label_en": "[Cafe Home] Auto-select My Cafe in Hot Tab",
+      "label_ko": "",
       "enabled": true
     },
     {
       "id": "cafe-list-swipe-to-hide",
-      "label": "[Cafe List] Swipe-to-Hide Post",
+      "categoryId": "cafe-list",
+      "order": 10,
+      "label_en": "[Cafe List] Swipe-to-Hide Post",
+      "label_ko": "",
       "enabled": true
     },
     {
-      "id": "cafe-list-show-nickname-block",
-      "label": "[Cafe List] Show Nickname Block Button",
+      "id": "naver-hide-blocked-placeholders",
+      "categoryId": "cafe-list",
+      "order": 20,
+      "label_en": "Hide Blocked User Placeholder",
+      "label_ko": "차단한 사용자 안내 숨기기",
+      "enabled": true
+    },
+    {
+      "id": "cafe-list-hide-post",
+      "categoryId": "cafe-list",
+      "order": 40,
+      "label_en": "[Cafe List] Hide Post",
+      "label_ko": "",
+      "enabled": true
+    },
+    {
+      "id": "cafe-list-unhide-post",
+      "categoryId": "cafe-list",
+      "order": 50,
+      "label_en": "[Cafe List] Unhide Post when reply count changes",
+      "label_ko": "",
+      "enabled": true
+    },
+    {
+      "id": "cafe-list-hide-post-expire",
+      "categoryId": "cafe-list",
+      "order": 60,
+      "label_en": "[Cafe List] Hidden Post expires after",
+      "label_ko": "",
+      "enabled": true
+    },
+    {
+      "id": "reload-setting-on-start",
+      "categoryId": "app",
+      "order": 10,
+      "label_en": "[App] Reload Setting on Start\n(Does not change saved preference)",
+      "label_ko": "",
       "enabled": true
     }
   ]
