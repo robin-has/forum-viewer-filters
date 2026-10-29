@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "nodes": [
+    {
+      "id": "arcalive-qol",
+      "parentId": "arcalive",
+      "type": "accordion",
+      "order": 10,
+      "labelKey": "menu.section.qol",
+      "siteId": "arcalive",
+      "feature": "qol",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "arcalive-hide-dom",
+      "parentId": "arcalive",
+      "type": "accordion",
+      "order": 20,
+      "labelKey": "menu.section.hide_dom",
+      "siteId": "arcalive",
+      "feature": "hide-dom",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "arcalive-adblock",
+      "parentId": "arcalive",
+      "type": "accordion",
+      "order": 30,
+      "labelKey": "menu.section.adblock",
+      "siteId": "arcalive",
+      "feature": "adblock",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "arcalive-block-management",
+      "parentId": "arcalive",
+      "type": "accordion",
+      "order": 40,
+      "labelKey": "menu.section.block_management",
+      "siteId": "arcalive",
+      "feature": "block-management",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "daum-cafe-qol",
+      "parentId": "daum-cafe",
+      "type": "accordion",
+      "order": 10,
+      "labelKey": "menu.section.qol",
+      "siteId": "daum-cafe",
+      "feature": "qol",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "daum-cafe-hide-dom",
+      "parentId": "daum-cafe",
+      "type": "accordion",
+      "order": 20,
+      "labelKey": "menu.section.hide_dom",
+      "siteId": "daum-cafe",
+      "feature": "hide-dom",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "daum-cafe-adblock",
+      "parentId": "daum-cafe",
+      "type": "accordion",
+      "order": 30,
+      "labelKey": "menu.section.adblock",
+      "siteId": "daum-cafe",
+      "feature": "adblock",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "daum-cafe-block-management",
+      "parentId": "daum-cafe",
+      "type": "accordion",
+      "order": 40,
+      "labelKey": "menu.section.block_management",
+      "siteId": "daum-cafe",
+      "feature": "block-management",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "dcinside-qol",
+      "parentId": "dcinside",
+      "type": "accordion",
+      "order": 10,
+      "labelKey": "menu.section.qol",
+      "siteId": "dcinside",
+      "feature": "qol",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "dcinside-hide-dom",
+      "parentId": "dcinside",
+      "type": "accordion",
+      "order": 20,
+      "labelKey": "menu.section.hide_dom",
+      "siteId": "dcinside",
+      "feature": "hide-dom",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "dcinside-adblock",
+      "parentId": "dcinside",
+      "type": "accordion",
+      "order": 30,
+      "labelKey": "menu.section.adblock",
+      "siteId": "dcinside",
+      "feature": "adblock",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "dcinside-block-management",
+      "parentId": "dcinside",
+      "type": "accordion",
+      "order": 40,
+      "labelKey": "menu.section.block_management",
+      "siteId": "dcinside",
+      "feature": "block-management",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "naver-cafe-qol",
+      "parentId": "naver-cafe",
+      "type": "accordion",
+      "order": 10,
+      "labelKey": "menu.section.qol",
+      "siteId": "naver-cafe",
+      "feature": "qol",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "naver-cafe-hide-dom",
+      "parentId": "naver-cafe",
+      "type": "accordion",
+      "order": 20,
+      "labelKey": "menu.section.hide_dom",
+      "siteId": "naver-cafe",
+      "feature": "hide-dom",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "naver-cafe-adblock",
+      "parentId": "naver-cafe",
+      "type": "accordion",
+      "order": 30,
+      "labelKey": "menu.section.adblock",
+      "siteId": "naver-cafe",
+      "feature": "adblock",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "naver-cafe-block-management",
+      "parentId": "naver-cafe",
+      "type": "accordion",
+      "order": 40,
+      "labelKey": "menu.section.block_management",
+      "siteId": "naver-cafe",
+      "feature": "block-management",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "app-settings",
+      "parentId": "root",
+      "type": "accordion",
+      "order": 10,
+      "labelKey": "nav.app_settings",
+      "siteId": null,
+      "feature": "app-settings",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "naver-cafe",
+      "parentId": "root",
+      "type": "page",
+      "order": 20,
+      "labelKey": "site.naver_cafe",
+      "siteId": "naver-cafe",
+      "feature": null,
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "dcinside",
+      "parentId": "root",
+      "type": "page",
+      "order": 30,
+      "labelKey": "site.dcinside",
+      "siteId": "dcinside",
+      "feature": null,
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "arcalive",
+      "parentId": "root",
+      "type": "page",
+      "order": 40,
+      "labelKey": "site.arcalive",
+      "siteId": "arcalive",
+      "feature": null,
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "daum-cafe",
+      "parentId": "root",
+      "type": "page",
+      "order": 50,
+      "labelKey": "site.daum_cafe",
+      "siteId": "daum-cafe",
+      "feature": null,
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "youtube",
+      "parentId": "root",
+      "type": "page",
+      "order": 60,
+      "labelKey": "site.youtube",
+      "siteId": "youtube",
+      "feature": null,
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "developer-tools",
+      "parentId": "root",
+      "type": "page",
+      "order": 70,
+      "labelKey": "nav.developer_tools",
+      "siteId": null,
+      "feature": "developer-tools",
+      "platforms": [
+        "chromium"
+      ],
+      "visibility": "always"
+    },
+    {
+      "id": "youtube-qol",
+      "parentId": "youtube",
+      "type": "accordion",
+      "order": 10,
+      "labelKey": "menu.section.qol",
+      "siteId": "youtube",
+      "feature": "qol",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "youtube-hide-dom",
+      "parentId": "youtube",
+      "type": "accordion",
+      "order": 20,
+      "labelKey": "menu.section.hide_dom",
+      "siteId": "youtube",
+      "feature": "hide-dom",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "youtube-adblock",
+      "parentId": "youtube",
+      "type": "accordion",
+      "order": 30,
+      "labelKey": "menu.section.adblock",
+      "siteId": "youtube",
+      "feature": "adblock",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    },
+    {
+      "id": "youtube-block-management",
+      "parentId": "youtube",
+      "type": "accordion",
+      "order": 40,
+      "labelKey": "menu.section.block_management",
+      "siteId": "youtube",
+      "feature": "block-management",
+      "platforms": [
+        "chromium",
+        "android"
+      ],
+      "visibility": "supported"
+    }
+  ]
+}
