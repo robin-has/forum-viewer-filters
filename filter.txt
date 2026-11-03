@@ -1,2 +1,3 @@
 ||nam.veta.naver.com/gfp/v1$xmlhttprequest,domain=m.cafe.naver.com
 ||ader.naver.com/collection/gfa/
+||ssl.pstatic.net/melona/libs/assets/css/gfa/main/min/main_flexible_banner_for_gfa.min.css$stylesheet
