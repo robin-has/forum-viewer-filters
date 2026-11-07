@@ -18,6 +18,12 @@
       "label_en": "App",
       "label_ko": "",
       "order": 30
+    },
+    {
+  "id": "youtube",
+  "label_en": "YouTube",
+  "label_ko": "YouTube",
+  "order": 40
     }
   ],
   "items": [
