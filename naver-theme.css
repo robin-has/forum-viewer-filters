@@ -1,4 +1,4 @@
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] {
   color-scheme: dark;
   --cafe-color-background: #1b1b1c;
   --cafe-color-backgroundContainerPrimary: #272829;
@@ -92,181 +92,181 @@
   --themeColorBT9: #474747;
   --themeColorBT11: #a6a6a6;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"],
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] body,
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] #root {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"],
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] body,
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] #root {
   background-color: var(--cafe-color-background);
   color: var(--cafe-color-onBackgroundPrimary);
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_sectionHeader_"], [class*="_root_"], [class*="_tabBar_"]) {
   background-color: var(--cafe-color-background) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] [class*="_goAppTop_"] {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] [class*="_goAppTop_"] {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] [class*="_goAppTop_"] :is(p, button) {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] [class*="_goAppTop_"] :is(p, button) {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] [class*="_newsItem_"] {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] [class*="_newsItem_"] {
   background-color: var(--cafe-color-brandContainerPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] [class*="_infoMsg_"] {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] [class*="_infoMsg_"] {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] iframe[title="광고"] {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] iframe[title="광고"] {
   background-color: #ffffff !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_headerGnbRight_"] :is(a, button),
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"] [class*="_linkNflea_"] {
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] [class*="_linkNflea_"] {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_logo_"] path[fill="#111112"],
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_linkNflea_"] path[fill="black"] {
   fill: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_shortcutList_"], [class*="_recommendations_"]) {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_shortcutList_"], [class*="_recommendations_"])
   :is(a, button, strong, [class*="_title_"], [class*="_rank_"], [class*="_cafeName_"]) {
   color: inherit !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_infoArea_"], [class*="_articleBody_"]) {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_infoArea_"] :is(button, [class*="_mainTextBox_"]) {
   color: inherit !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_articleBody_"] :is(p, [class*="_txt_"]) {
   color: var(--cafe-color-onBackgroundSecondary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [data-neighbor-news="true"] [class*="_articleLink_"] {
   color: var(--cafe-color-onBackgroundSecondary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [data-neighbor-news="true"] [class*="_articleTitle_"] {
   color: inherit !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_popularList_"] [role="group"] {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_popularList_"] [class*="_btnMore_"] {
   background-color: var(--cafe-color-backgroundContainerSecondary) !important;
   border-color: var(--cafe-color-outlineButtonTertiary) !important;
   color: var(--cafe-color-onBackgroundSecondary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_form_"] [class*="_back_"] {
   filter: invert(1);
   opacity: 0.72;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_recommendations_"] [class*="_more_"] {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_cafeListBtns_"] {
   background-color: var(--cafe-color-background) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_cafeListBtns_"] [class*="_btnbox_"] {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_cafeListBtns_"] [class*="_btnbox_"] * {
   color: inherit !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_additionalArea_"] :is([class*="_buttonBanner_"], [class*="_pageTop_"]) {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_buttonBanner_"] button {
   background: var(--cafe-color-backgroundContainerPrimary) !important;
   border-color: var(--cafe-color-outlineButtonTertiary) !important;
   color: var(--cafe-color-onBackgroundSecondary) !important;
 }
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_buttonBanner_"] button > span {
   border-color: var(--cafe-color-outlineButtonTertiary) !important;
 }
-:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]) body {
+:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]) body {
   color: var(--cafe-color-onBackgroundPrimary);
 }
-:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] body) a {
+:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] body) a {
   color: var(--cafe-color-onBackgroundPrimary);
 }
-:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]) :is(input, textarea, select, button) {
+:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]) :is(input, textarea, select, button) {
   color: var(--cafe-color-onBackgroundPrimary);
 }
-:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]) :is(input, textarea)::placeholder {
+:where(:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]) :is(input, textarea)::placeholder {
   color: var(--cafe-color-onBackgroundAssist);
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   :is(.SectionNeighborhood, .neighborhood_menu, .NeighborhoodList, .TownTalkFeedItem, .TownHotArticlesPreview) {
   background-color: var(--cafe-color-background) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   :is(.home_logo .logo_cafe, .HeaderGnbRight .logo_nflea65x17, .HeaderGnbRight .appbar__local_write) {
   color: var(--cafe-color-onBackgroundPrimary) !important;
   fill: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   :is(#logo_cafe path[fill="#111112"], #logo_nflea65x17 path[fill="#000"], #appbar__local_write [fill="#323232"]) {
   fill: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   .TownTalkFeedItem .summary {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .header_research {
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .header_research {
   background-color: var(--cafe-color-background) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .header_research .txt {
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .header_research .txt {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .search_input,
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .search_input input {
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .search_input,
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .search_input input {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .content_research .tab {
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .content_research .tab {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .content_research .tab[aria-selected="true"] {
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .content_research .tab[aria-selected="true"] {
   background-color: var(--cafe-color-backgroundContainerSecondary) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .content_research .txt {
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .content_research .txt {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"] .content_research
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"] .content_research
   :is(.info_middle, .member, .has_dot, .is_growing) {
   color: var(--cafe-color-onBackgroundTertiary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   .local_name :is(a, button, strong),
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   .article_box :is(a, button, strong, .title) {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
-:root[data-forum-viewer-naver-frontend="web-mobile"][data-dark-route="true"]
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   .article_box :is(p, .description, .sub_text) {
   color: var(--cafe-color-onBackgroundSecondary) !important;
 }
