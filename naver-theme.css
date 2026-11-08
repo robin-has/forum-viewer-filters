@@ -188,11 +188,6 @@
   color: var(--cafe-color-onBackgroundSecondary) !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
-  [class*="_form_"] [class*="_back_"] {
-  filter: invert(1);
-  opacity: 0.72;
-}
-:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_recommendations_"] [class*="_more_"] {
   background-color: var(--cafe-color-backgroundContainerPrimary) !important;
   color: var(--cafe-color-onBackgroundPrimary) !important;
