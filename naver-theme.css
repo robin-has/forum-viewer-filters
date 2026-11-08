@@ -116,6 +116,7 @@
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   a[class*="_titleMore_"][aria-label="더보기"]::after {
   background-color: #ffffff !important;
+  color-scheme: only light !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_sectionHeader_"], [class*="_root_"], [class*="_tabBar_"]) {
