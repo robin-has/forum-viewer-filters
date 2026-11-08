@@ -92,7 +92,7 @@
   --themeColorBT11: #a6a6a6;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
-  [class*="_cafeList_"] picture[class*="_hasDim_"] {
+  [class*="_cafeList_"] picture[class*="_thumbnail_"] {
   color-scheme: only light !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"],
@@ -100,6 +100,10 @@
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] #root {
   background-color: var(--cafe-color-background);
   color: var(--cafe-color-onBackgroundPrimary);
+}
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
+  [class*="_headerGnbCenter_"] [class*="_singleTitle_"] {
+  background-color: #1b1b1c !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_sectionHeader_"], [class*="_root_"], [class*="_tabBar_"]) {
