@@ -106,6 +106,18 @@
   background-color: #1b1b1c !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
+  picture[class*="_defaultImage_"][class*="_isCircle_"][class*="_hasDim_"] {
+  color-scheme: only light !important;
+}
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
+  button[data-nlog-area="joined_cafe.new_post_toggle"] > [class*="_switchKnob_"] {
+  color-scheme: only light !important;
+}
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
+  a[class*="_titleMore_"][aria-label="더보기"]::after {
+  background-color: #ffffff !important;
+}
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   :is([class*="_sectionHeader_"], [class*="_root_"], [class*="_tabBar_"]) {
   background-color: var(--cafe-color-background) !important;
 }
