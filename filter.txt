@@ -1,3 +1,4 @@
 ||nam.veta.naver.com/gfp/v1
 ||camp-api.naver.com/v1/pick?unit=M_CAFE_POSTEND_FEED
 ||ipada.cafe.naver.com^
+#ListItem.adtype_infinity
