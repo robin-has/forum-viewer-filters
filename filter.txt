@@ -3,8 +3,8 @@
 ||ipada.cafe.naver.com^
 
 
-li.ListItem.adtype_infinity
-[id*="sc_articles_ad_"]
-[data-ad-id*="sc_articles_ad_"]
-.ad_div
-.is_feed_ad
+naver.com##li.ListItem.adtype_infinity
+naver.com##[id*="sc_articles_ad_"]
+naver.com##[data-ad-id*="sc_articles_ad_"]
+naver.com##.ad_div
+naver.com##.is_feed_ad
