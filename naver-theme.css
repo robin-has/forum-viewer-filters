@@ -193,6 +193,11 @@
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
+  [class*="_form_"] [class*="_inputWrap_"] {
+  background-color: #2b2b2b !important;
+  border: none !important;
+}
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
   [class*="_cafeListBtns_"] {
   background-color: var(--cafe-color-background) !important;
 }
