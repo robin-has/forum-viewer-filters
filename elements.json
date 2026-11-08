@@ -36,7 +36,11 @@
       "label_en": "카페 고정 공지",
       "label_ko": "",
       "hosts": [
-        "m.cafe.naver.com"
+        "arca.live",
+        "gall.dcinside.com",
+        "m.cafe.naver.com",
+        "m.dcinside.com",
+        "www.dcinside.com"
       ],
       "selectors": [
         ".NoticeArea"
