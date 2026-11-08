@@ -251,6 +251,18 @@
   fill: var(--cafe-color-onBackgroundPrimary) !important;
 }
 :root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
+  picture.DefaultImage.isCircle.hasDim {
+  color-scheme: only light !important;
+}
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
+  #boxSwitch .ico_switch {
+  color-scheme: only light !important;
+}
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
+  .link_nflea svg {
+  filter: invert(1) !important;
+}
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   .TownTalkFeedItem .summary {
   color: var(--cafe-color-onBackgroundPrimary) !important;
 }
