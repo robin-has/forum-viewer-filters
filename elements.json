@@ -1,14 +1,16 @@
 {
-  "version": 2,
+  "version": 3,
   "categories": [
     {
       "id": "general",
-      "label": "간편하게 보기",
+      "label_en": "간편하게 보기",
+      "label_ko": "",
       "order": 10
     },
     {
       "id": "ad",
-      "label": "광고 숨기기",
+      "label_en": "광고 숨기기",
+      "label_ko": "",
       "order": 20
     }
   ],
@@ -17,9 +19,15 @@
       "id": "cafe-home-tab-neighbor",
       "categoryId": "general",
       "order": 30,
-      "label": "카페 홈 탭 - 이웃",
+      "label_en": "카페 홈 탭 - 이웃",
+      "label_ko": "",
       "hosts": [
-        "m.cafe.naver.com"
+        "cafe.daum.net",
+        "gall.dcinside.com",
+        "m.cafe.daum.net",
+        "m.cafe.naver.com",
+        "m.dcinside.com",
+        "www.dcinside.com"
       ],
       "selectors": [
         "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(2)"
@@ -30,7 +38,8 @@
       "id": "cafe-sticky-notice",
       "categoryId": "general",
       "order": 40,
-      "label": "카페 고정 공지",
+      "label_en": "카페 고정 공지",
+      "label_ko": "",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -43,7 +52,8 @@
       "id": "cafe-home-flea",
       "categoryId": "general",
       "order": 50,
-      "label": "카페 홈 플리마켓",
+      "label_en": "카페 홈 플리마켓",
+      "label_ko": "",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -57,7 +67,8 @@
       "id": "cafe-home-mobile-banner",
       "categoryId": "ad",
       "order": 10,
-      "label": "카페 홈 모바일 배너",
+      "label_en": "카페 홈 모바일 배너",
+      "label_ko": "",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -74,7 +85,8 @@
       "id": "cafe-article-list-mobile-banner",
       "categoryId": "ad",
       "order": 20,
-      "label": "카페 글 목록 모바일 배너",
+      "label_en": "카페 글 목록 모바일 배너",
+      "label_ko": "",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -91,7 +103,8 @@
       "id": "cafe-carticle-list-ad",
       "categoryId": "ad",
       "order": 30,
-      "label": "카페 글 목록 내 광고",
+      "label_en": "카페 글 목록 내 광고",
+      "label_ko": "",
       "hosts": [
         "m.cafe.naver.com"
       ],
