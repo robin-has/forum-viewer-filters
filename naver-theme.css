@@ -1,5 +1,4 @@
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] {
-  color-scheme: dark;
   --cafe-color-background: #1b1b1c;
   --cafe-color-backgroundContainerPrimary: #272829;
   --cafe-color-backgroundContainerSecondary: #353738;
@@ -91,6 +90,10 @@
   --themeColorBT7: #272829;
   --themeColorBT9: #474747;
   --themeColorBT11: #a6a6a6;
+}
+:root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"]
+  [class*="_cafeList_"] picture[class*="_hasDim_"] {
+  color-scheme: only light !important;
 }
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"],
 :root[data-forum-viewer-naver-frontend="cafe-mobile"][data-forum-viewer-theme="dark"] body,
