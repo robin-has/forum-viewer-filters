@@ -22,9 +22,7 @@
       "label_en": "카페 홈 탭 - 이웃",
       "label_ko": "",
       "hosts": [
-        "cafe.daum.net",
         "gall.dcinside.com",
-        "m.cafe.daum.net",
         "m.cafe.naver.com",
         "m.dcinside.com",
         "www.dcinside.com"
