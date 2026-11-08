@@ -4,5 +4,8 @@
 
 
 li.ListItem.adtype_infinity
+div[id*="sc_articles_ad_wrap_"]
 div[data-ad-id*="sc_articles_ad_"]
-.ad_div is_feed_ad
+.ad_div
+.is_feed_ad
+div[id*=sc_articles_ad_"]
