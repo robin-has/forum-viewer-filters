@@ -251,6 +251,14 @@
   fill: var(--cafe-color-onBackgroundPrimary) !important;
 }
 :root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
+  .HeaderGnbCenter .single_title {
+  background-color: #1b1b1c !important;
+}
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
+  picture.DefaultImage:has(img[alt="카페 아이콘"]) {
+  color-scheme: only light !important;
+}
+:root[data-forum-viewer-naver-frontend="web-mobile"][data-forum-viewer-theme="dark"]
   picture.DefaultImage.isCircle.hasDim {
   color-scheme: only light !important;
 }
