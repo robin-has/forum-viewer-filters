@@ -108,8 +108,11 @@
         "m.cafe.naver.com"
       ],
       "selectors": [
-        "div[id*=\"sc_articles_ad_wrap_popular_\"]",
-        "div[data-ad-id]"
+        "li.ListItem.adtype_infinity",
+        "[id*=\"sc_articles_ad_\"]",
+        "[data-ad-id]",
+        ".ad_div",
+        ".is_feed_ad"
       ],
       "defaultHidden": true
     }
