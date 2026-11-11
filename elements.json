@@ -19,8 +19,8 @@
       "id": "cafe-home-tab-neighbor",
       "categoryId": "general",
       "order": 30,
-      "label_en": "카페 홈 탭 - 이웃",
-      "label_ko": "",
+      "label_en": "Cafe Home Tab - Neighbor",
+      "label_ko": "카페 홈 탭 - 이웃",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -33,8 +33,8 @@
       "id": "cafe-sticky-notice",
       "categoryId": "general",
       "order": 40,
-      "label_en": "카페 고정 공지",
-      "label_ko": "",
+      "label_en": "Cafe Sticky Notice",
+      "label_ko": "카페 고정 공지",
       "hosts": [
         "arca.live",
         "gall.dcinside.com",
@@ -51,8 +51,8 @@
       "id": "cafe-home-flea",
       "categoryId": "general",
       "order": 50,
-      "label_en": "카페 홈 플리마켓",
-      "label_ko": "",
+      "label_en": "Cafe Home Flea Market",
+      "label_ko": "카페 홈 플리마켓",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -63,11 +63,25 @@
       "defaultHidden": true
     },
     {
-      "id": "cafe-home-mobile-banner",
+      "id": "naver-base-filter",
       "categoryId": "ad",
       "order": 10,
-      "label_en": "카페 홈 모바일 배너",
-      "label_ko": "",
+      "label_en": "Naver Base Filter",
+      "label_ko": "네이버 기본 필터",
+      "hosts": [
+        "m.cafe.naver.com"
+      ],
+      "selectors": [
+        ".test"
+      ],
+      "defaultHidden": true
+    },
+    {
+      "id": "cafe-home-mobile-banner",
+      "categoryId": "ad",
+      "order": 20,
+      "label_en": "Cafe Home Mobile Banner",
+      "label_ko": "카페 홈 모바일 배너",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -83,9 +97,9 @@
     {
       "id": "cafe-article-list-mobile-banner",
       "categoryId": "ad",
-      "order": 20,
-      "label_en": "카페 글 목록 모바일 배너",
-      "label_ko": "",
+      "order": 30,
+      "label_en": "Cafe Article List Mobile Banner",
+      "label_ko": "카페 글 목록 모바일 배너",
       "hosts": [
         "m.cafe.naver.com"
       ],
@@ -101,9 +115,9 @@
     {
       "id": "cafe-carticle-list-ad",
       "categoryId": "ad",
-      "order": 30,
-      "label_en": "카페 글 목록 내 광고",
-      "label_ko": "",
+      "order": 40,
+      "label_en": "Cafe Article List Ad",
+      "label_ko": "카페 글 목록 내 광고",
       "hosts": [
         "m.cafe.naver.com"
       ],
