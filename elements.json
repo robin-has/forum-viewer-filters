@@ -71,9 +71,7 @@
       "hosts": [
         "m.cafe.naver.com"
       ],
-      "selectors": [
-        ".test"
-      ],
+      "selectors": [],
       "defaultHidden": true
     },
     {
