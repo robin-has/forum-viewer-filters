@@ -37,9 +37,7 @@
       "label_en": "Cafe Sticky Notice",
       "label_ko": "카페 고정 공지",
       "sites": [
-        "naver-cafe",
-        "dcinside",
-        "arcalive"
+        "naver-cafe"
       ],
       "selectors": [
         ".NoticeArea"
