@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "categories": [
     {
       "id": "general",
@@ -27,6 +27,7 @@
       "selectors": [
         "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(2)"
       ],
+      "networkRules": [],
       "defaultHidden": true
     },
     {
@@ -43,6 +44,7 @@
       "selectors": [
         ".NoticeArea"
       ],
+      "networkRules": [],
       "defaultHidden": true
     },
     {
@@ -58,6 +60,7 @@
         "a[aria-label=\"N플리마켓\"]",
         "a[data-nlog-area=\"gnb.goto_nflea\"]"
       ],
+      "networkRules": [],
       "defaultHidden": true
     },
     {
@@ -70,6 +73,7 @@
         "naver-cafe"
       ],
       "selectors": [],
+      "networkRules": [],
       "defaultHidden": true
     },
     {
@@ -87,6 +91,11 @@
         "div[data-section-home-top-advert=\"true\"]",
         "div[data-nlog-area=\"ad.mw_cafe_top_home.item\"]",
         "div[data-nlog-params*=\"ad_provider_group_cd\"]"
+      ],
+      "networkRules": [
+        "||nam.veta.naver.com/gfp/v1",
+        "||camp-api.naver.com/v1/pick?unit=M_CAFE_POSTEND_FEED",
+        "||ipada.cafe.naver.com^"
       ],
       "defaultHidden": true
     },
@@ -106,6 +115,7 @@
         "div[data-nlog-area=\"ad.mw_cafe_article_list_rs.item\"]",
         "div[data-nlog-params*=\"ad_provider_group_cd\"]"
       ],
+      "networkRules": [],
       "defaultHidden": true
     },
     {
@@ -124,6 +134,7 @@
         ".ad_div",
         ".is_feed_ad"
       ],
+      "networkRules": [],
       "defaultHidden": true
     }
   ]
