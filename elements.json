@@ -18,7 +18,7 @@
     {
       "id": "cafe-home-tab-neighbor",
       "categoryId": "general",
-      "order": 30,
+      "order": 10,
       "label_en": "Cafe Home Tab - Neighbor",
       "label_ko": "카페 홈 탭 - 이웃",
       "sites": [
@@ -31,9 +31,24 @@
       "defaultHidden": true
     },
     {
+      "id": "cafe-home-tab-chatting",
+      "categoryId": "general",
+      "order": 20,
+      "label_en": "Cafe Home Tab - Chatting",
+      "label_ko": "카페 홈 탭 - 채팅",
+      "sites": [
+        "naver-cafe"
+      ],
+      "selectors": [
+        "header > div[class*=\"_headerTab_\"] > ul > li:nth-child(6)"
+      ],
+      "networkRules": [],
+      "defaultHidden": true
+    },
+    {
       "id": "cafe-sticky-notice",
       "categoryId": "general",
-      "order": 40,
+      "order": 30,
       "label_en": "Cafe Sticky Notice",
       "label_ko": "카페 고정 공지",
       "sites": [
@@ -48,7 +63,7 @@
     {
       "id": "cafe-home-flea",
       "categoryId": "general",
-      "order": 50,
+      "order": 40,
       "label_en": "Cafe Home Flea Market",
       "label_ko": "카페 홈 플리마켓",
       "sites": [
